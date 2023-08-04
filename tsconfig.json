@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "typings/*": [
+        "src/typings/*"
+      ],
+      "models/*": [
+        "src/models/*"
+      ],
+      "*": [
+        "node_modules/*",
+      ]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

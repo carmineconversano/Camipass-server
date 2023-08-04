@@ -1,0 +1,68 @@
+{
+  "name": "camipass-server",
+  "version": "0.0.1",
+  "description": "A beautiful chat app",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc -p .",
+    "pretest": "tsc -p .",
+    "watch": "mocha-typescript-watch",
+    "dev-test-watch": "mocha-typescript-watch",
+    "test": "mocha test/**/*.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Camipass/camipass-server.git"
+  },
+  "keywords": [
+    "express",
+    "typescript",
+    "chat",
+    "server",
+    "node"
+  ],
+  "author": "Carmine Conversano, Mirko de Cillis",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Camipass/camipass-server/issues"
+  },
+  "homepage": "https://github.com/Camipass/camipass-server#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv-flow": "^3.2.0",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.29.1",
+    "mysql2": "^2.2.5",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^6.6.2",
+    "sequelize-typescript": "^2.1.0",
+    "socket.io": "^4.0.0",
+    "socketio-jwt-auth": "^0.2.1",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/cors": "^2.8.10",
+    "@types/dotenv-flow": "^3.1.0",
+    "@types/express": "^4.17.11",
+    "@types/http-errors": "^1.8.0",
+    "@types/node": "^14.14.37",
+    "@types/passport": "^1.0.6",
+    "@types/passport-jwt": "^3.0.5",
+    "@types/sequelize": "^4.28.9",
+    "@types/socket.io": "^2.1.13",
+    "@types/socketio-jwt-auth": "^0.0.0",
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "tslint": "^5.11.0",
+    "tslint-clean-code": "^0.2.10",
+    "typescript": "^4.2.3"
+  }
+}
